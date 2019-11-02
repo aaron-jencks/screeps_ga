@@ -1,0 +1,19 @@
+spawner controller:
+    - Tries to get largest score per found of spawnings
+    - Fitness is determined by the sum of all of the scores of the creeps
+
+harvester controllers:
+    - Tries to get as much energy to the spawner as possible
+    - Score is determined by the amount of energy and number of times the creep delivered
+
+builder controller:
+    - Tries to build whatever it's tasked to, using it's energy
+    - Score is based on the amount of energy that was delivered to the target building
+
+scout controller:
+    - Tries to find new rooms/resources/enemies
+    - Score is a bit more complex
+        * Score for discovering a room is high if there is not target resources
+        * Score for discovering a room is low if there is a target resource
+            * likewise Score for discovering a resource is high if the current objective is not to find enemies
+            * and low if it is.

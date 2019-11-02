@@ -1,0 +1,19 @@
+{
+  "name": "screeps_ga",
+  "version": "1.0.0",
+  "description": "Genetic algorithm implementation for screeps",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iggy12345/screeps_ga.git"
+  },
+  "author": "Aaron Jencks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iggy12345/screeps_ga/issues"
+  },
+  "homepage": "https://github.com/iggy12345/screeps_ga#readme"
+}

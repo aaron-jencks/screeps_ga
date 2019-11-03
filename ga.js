@@ -100,7 +100,7 @@ class population {
             for(let i = 0; i < this.count; i++)
             {
                 let p = new this.populant(this.gene_function());
-                console.log(p.genes);
+                //console.log(p.genes);
                 this.pop.push(p);
             }
         else if(parent_pool.length == 1)

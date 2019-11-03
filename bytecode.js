@@ -369,10 +369,19 @@ var mainops = [
 module.exports.mainops = mainops;
 
 class cpu {
-    constructor() {
+    constructor(creep, spawner, callback) {
         this.operations = [];
         this.vtable = {};
         this.persistant = true;
+        this.creep = creep;
+        this.cbck = callback;
+        
+        let temp = null;
+        if(spawner)
+            temp = spawner.room;
+        
+        this.room = temp;
+        this.home = spawner
     }
 
     give_mains() {

@@ -23,7 +23,7 @@ If you have any issues don't hesitate to open an issue!
 
 You can also run some of the test files and demo files I've written using `nodejs` the ones that I know work are:
 * [`ga_demo.js`](./ga_demo.js)
-* [`bytecode_demo.js](./bytecode_demo.js)
+* [`bytecode_demo.js`](./bytecode_demo.js)
 
 ### ga_demo.js
 This test demonstrates the functionality of the genetic algorithm housed in [ga.js](./ga.js). 
